@@ -1,7 +1,4 @@
 <div>
-    <div class="my-5 text-center">
-        <img src="{{asset('assets/images/logo.png')}}" alt="Logo" width="128px">
-    </div>
     <div class="container">
         <div class="row">
             <div class="col-md-4">

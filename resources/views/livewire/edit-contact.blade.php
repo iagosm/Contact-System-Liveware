@@ -1,5 +1,5 @@
 <div class="p-5 card">
-    <form wire:submit="newContact">
+    <form wire:submit="editContact">
         <div class="mb-3">
             <label for="name">Name</label>
             <input type="text" class="form-control" id="name" wire:model="name">
