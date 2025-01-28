@@ -1,4 +1,6 @@
 <div class="p-5 card">
+    <h3>New Contact</h3>
+    <hr>
     <form wire:submit="newContact">
         <div class="mb-3">
             <label for="name">Name</label>

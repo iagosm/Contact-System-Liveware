@@ -3,7 +3,6 @@
 namespace App\Livewire;
 
 use App\Models\Contact;
-use Illuminate\Support\Facades\Log;
 use Livewire\Attributes\Validate;
 use Livewire\Component;
 

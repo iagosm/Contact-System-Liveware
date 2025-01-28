@@ -1,8 +1,9 @@
 <div class="p-5 card">
-    <p class="mb-3">Contacts</p>
-    @if($contacts->count() == 0) 
+    <h3>Contacts</h3>
+    <hr>
+    @if($contacts->count() == 0)
     <div class="opacity-50">No contacts Found</div>
-    @else 
+    @else
         @foreach ($contacts as $contact)
             <div class="p-3 mb-1 bg-dark card">
                 <div class="row">
